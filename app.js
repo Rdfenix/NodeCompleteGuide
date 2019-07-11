@@ -1,5 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
+const expressHbs = require('express-handlebars')
 const app = express()
 const path = require('path')
 
@@ -20,7 +21,9 @@ app.use(shopRouter)
 app.use((req, res) => {
     //res.status(404).send('<h1>Page not found</h1>')
     //res.status(404).sendFile(path.join(__dirname, 'views', '404.html'))
-    res.status(404).render('404', {pageTitle: 'Page Not Found'})
+    res.status(404).render('404', {
+        pageTitle: 'Page Not Found'
+    })
 })
 
 app.listen(3000)
