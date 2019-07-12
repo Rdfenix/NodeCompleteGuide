@@ -4,6 +4,7 @@ const expressHbs = require('express-handlebars')
 const app = express()
 const path = require('path')
 
+app.engine('handlebars', expressHbs())
 app.set('view engine', 'pug')
 app.set('views', 'views')
 
