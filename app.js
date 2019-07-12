@@ -1,8 +1,9 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-// const expressHbs = require('express-handlebars')
 const app = express()
 const path = require('path')
+
+// const expressHbs = require('express-handlebars')
 
 // app.engine('hbs',
 //     expressHbs({
@@ -13,7 +14,7 @@ const path = require('path')
 // );
 // app.set('view engine', 'hbs');
 app.set('view engine', 'ejs');
-app.set('views', 'views/ejs/')
+app.set('views', 'views')
 
 const adminRouter = require('./routes/admin')
 const shopRouter = require('./routes/shop')
