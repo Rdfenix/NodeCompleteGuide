@@ -5,7 +5,7 @@ const app = express()
 const path = require('path')
 
 app.engine('handlebars', expressHbs())
-app.set('view engine', 'pug')
+app.set('view engine', 'handlebars')
 app.set('views', 'views')
 
 const adminRouter = require('./routes/admin')
