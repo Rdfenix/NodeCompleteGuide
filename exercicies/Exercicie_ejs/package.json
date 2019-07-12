@@ -1,0 +1,27 @@
+{
+  "name": "exercicie_ejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rdfenix/NodeCompleteGuide.git"
+  },
+  "author": "Rudnei Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rdfenix/NodeCompleteGuide/issues"
+  },
+  "homepage": "https://github.com/Rdfenix/NodeCompleteGuide#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
