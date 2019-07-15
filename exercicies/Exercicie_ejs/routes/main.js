@@ -3,10 +3,10 @@ const express = require('express'),
     users = []
 
 router.get('/', (req, res, next) => {
-    console.log('veio aqui')
+    res.render('main', {})
 })
 
-router.post('/', (req, res, next) => {
+router.post('/add-user', (req, res, next) => {
     users.push({
         name: req.body.name
     })
