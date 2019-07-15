@@ -10,8 +10,9 @@ router.get('/', (req, res, next) => {
 
 router.post('/add-user', (req, res, next) => {
     users.push({
-        name: req.body.name
+        name: req.body.userName
     })
+    res.redirect('/users')
 })
 
 exports.routes = router

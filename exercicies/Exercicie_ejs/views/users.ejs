@@ -4,6 +4,16 @@
 <body>
     <%- include('includes/nav.ejs') %>
     <div class="container">
-        <h1>Users</h1>
+        <% if(users.length === 0) { %>
+        <h1>No users</h1>
+        <% } else { %>
+        <h1>User List</h1>
+        <br>
+        <ul>
+            <% for(let user of users) { %>
+            <li><%= user.name %></li>
+            <% } %>
+        </ul>
+        <% } %>
     </div>
     <%- include('includes/bottom.ejs') %>

@@ -5,7 +5,14 @@
     <%- include('includes/nav.ejs') %>
 
     <div class="container">
-        <h1>Test</h1>
+        <h1>Page Initial</h1>
+        <br>
+        <form action="/add-user" method="POST" class="form">
+            <div class="form-control">
+                <input type="text" name="userName" placeholder="User Name" id="userName">
+            </div>
+            <button type="submit">Send</button>
+        </form>
     </div>
 
     <%- include('includes/bottom.ejs') %>

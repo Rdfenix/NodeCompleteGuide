@@ -6,3 +6,18 @@ div.container {
     justify-content: center;
     align-items: center;
 }
+
+#userName {
+    padding: 5px;
+    margin: 0 0 10px 0;
+}
+
+#userName::placeholder {
+    font-style: italic;
+}
+
+form.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
