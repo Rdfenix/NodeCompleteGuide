@@ -58,12 +58,6 @@ main {
     width: 100%;
 }
 
-.form-control input {
-    border: 1px solid #dbc441;
-    font: inherit;
-    border-radius: 2px;
-}
-
 button {
     font: inherit;
     border: 1px solid #3e00a1;
