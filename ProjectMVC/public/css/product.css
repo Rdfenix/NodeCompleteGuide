@@ -26,11 +26,13 @@ main {
     width: 20rem;
     max-width: 90%;
     margin: auto;
+    display: block;
 }
 
 .product-item {
     width: 20rem;
     max-width: 95%;
+    margin: 1rem;
 }
 
 .product__title {
@@ -74,6 +76,6 @@ button:active {
 }
 
 .edit-link {
-    padding: 1px 9px;
+    padding: 4px 20px;
     text-decoration: none;
 }
