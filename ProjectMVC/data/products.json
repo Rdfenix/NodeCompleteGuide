@@ -1,1 +1,13 @@
-[{"id":"0.9227900787381853","title":"First Book","imageUrl":"https://i2.wp.com/thebusinessofhealthcare.com.au/wp-content/uploads/2018/05/red-book.png?resize=594%2C440&ssl=1","description":"That is the first Book of store, a great book to read","price":"30.00"},{"title":"Green Book","imageUrl":"https://thumbs.dreamstime.com/z/green-color-3d-book-16718712.jpg","description":"that is the new green book","price":"22.90","id":"0.09590193992605989"}]
+[{
+    "id": "0.9227900787381853",
+    "title": "First Book",
+    "imageUrl": "https://i2.wp.com/thebusinessofhealthcare.com.au/wp-content/uploads/2018/05/red-book.png?resize=594%2C440&ssl=1",
+    "description": "That is the first Book of store, a great book to read",
+    "price": "30.00"
+}, {
+    "id": "0.09590193992605989",
+    "title": "Green Book",
+    "imageUrl": "https://thumbs.dreamstime.com/z/green-color-3d-book-16718712.jpg",
+    "description": "that is the new green book",
+    "price": "22.95"
+}]
