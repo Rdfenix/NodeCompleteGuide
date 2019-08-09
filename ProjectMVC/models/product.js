@@ -17,7 +17,7 @@ const getProductsFromFile = cb => {
     });
 };
 
-module.exports = class Product {
+class Product {
     constructor(id, title, imageUrl, description, price) {
         this.id = id;
         this.title = title;
@@ -58,3 +58,5 @@ module.exports = class Product {
         });
     }
 };
+
+module.exports = Product
