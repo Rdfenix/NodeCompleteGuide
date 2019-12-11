@@ -4,12 +4,15 @@ const app = express()
 const path = require('path')
 
 const errorController = require('./controllers/error')
+const database = require('./util/database');
 
 app.set('view engine', 'ejs');
 app.set('views', 'views')
 
 const adminRoutes = require('./routes/admin')
 const shopRouter = require('./routes/shop')
+
+database.execute();
 
 app.use(bodyParser.urlencoded({
     extended: true
