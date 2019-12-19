@@ -22,4 +22,9 @@ app.use(shopRouter)
 
 app.use(errorController.getErrorPage)
 
-app.listen(3000)
+database.sync().then(result => {
+    console.log('Result ', result)
+    app.listen(3000)
+}).catch(err => console.log('Err', err))
+
+//app.listen(3000)
